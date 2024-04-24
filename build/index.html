@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegany Store</title>
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+  </head>
+
+  <body>
+    <div class="tagline">
+  <img class="tagline__icon" src="./img/icons/ticket-percent.svg" alt="Icon" />
+  <span class="tagline__desc">30% off storewide&#160;&#8212; Limited time!</span>
+  <span class="tagline__link">
+    Shop Now
+    <img src="./img/icons/arrow-right.svg" alt="Right" />
+  </span>
+  <button class="tagline__close">
+    <img src="./img/icons/close.svg" alt="Close" />
+  </button>
+  <a href="#!" class="tagline__link-overlay"></a>
+</div>
+ <div class="nav">
+  <div class="container">
+    <div class="nav__row">
+      <div class="nav__logo">
+        <button class="nav__btn-mobile-nav" id="mobile-nav-btn">
+          <img src="./img/icons/menu.svg" alt="Menu" />
+        </button>
+        <a class="logo" href="#!">3legant<span>.</span></a>
+      </div>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#!" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <button href="#!" class="nav__link">
+            Shop <img src="./img/icons/chevron-down.svg" alt="arrow" />
+          </button>
+        </li>
+        <li class="nav__item">
+          <button href="#!" class="nav__link">
+            Product <img src="./img/icons/chevron-down.svg" alt="arrow" />
+          </button>
+        </li>
+        <li class="nav__item">
+          <a href="#!" class="nav__link">Contact Us</a>
+        </li>
+      </ul>
+      <div class="nav__btns">
+        <button class="nav__btn nav__btn--search">
+          <img src="./img/icons/search.svg" alt="Search" />
+        </button>
+        <button class="nav__btn nav__btn--user">
+          <img src="./img/icons/user.svg" alt="User" />
+        </button>
+        <button class="nav__btn">
+          <img src="./img/icons/cart.svg" alt="Cart" />
+          <span class="nav__btn-count">2</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="mobile-nav">
+  <div class="mobile-nav__top">
+    <div class="mobile-nav__header">
+      <a href="#!" class="logo logo--small">3legant<span>.</span></a>
+      <button id="close-mobile__nav">
+        <img src="./img/icons/close.svg" alt="Close" />
+      </button>
+    </div>
+    <form action="" class="mobile-nav__search">
+      <div class="mobile-nav__search-label">
+        <img src="./img/icons/search.svg" alt="Search" />
+        <input class="mobile-nav__search-input" placeholder="Search" type="text" />
+      </div>
+    </form>
+    <ul class="mobile-nav__list">
+      <li class="mobile-nav__item">
+        <a href="#!" class="mobile-nav__link">Home</a>
+      </li>
+      <li class="mobile-nav__item">
+        <button href="#!" class="mobile-nav__link">
+          Shop <img src="./img/icons/chevron-down.svg" alt="arrow" />
+        </button>
+      </li>
+      <li class="mobile-nav__item">
+        <button href="#!" class="mobile-nav__link">
+          Product <img src="./img/icons/chevron-down.svg" alt="arrow" />
+        </button>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="#!" class="mobile-nav__link">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+  <div class="mobile-nav__bottom">
+    <div class="mobile-nav__links">
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item mobile-nav__item--gray">
+          <a href="#!" class="mobile-nav__link mobile-nav__item--gray"
+            >Cart
+            <span class="nav__btn">
+              <img src="./img/icons/cart.svg" alt="Cart" />
+              <span class="nav__btn-count nav__btn-count--white">2</span>
+            </span>
+          </a>
+        </li>
+        <li class="mobile-nav__item mobile-nav__item--gray">
+          <a href="#!" class="mobile-nav__link mobile-nav__item--gray"
+            >Wishlist
+            <span class="nav__btn">
+              <img src="./img/icons/heart.svg" alt="Heart" />
+              <span class="nav__btn-count nav__btn-count--white">2</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="mobile-nav__sign-in">
+      <a href="#!" class="btn btn--wide">Sign In</a>
+    </div>
+    <div class="mobile-nav__socials">
+      <a href="#!"><img src="./img/socials/instagram-mobile.svg" alt="instagram" /></a>
+      <a href="#!"><img src="./img/socials/facebook-mobile.svg" alt="facebook" /></a>
+      <a href="#!"><img src="./img/socials/youtube-mobile.svg" alt="youtube" /></a>
+    </div>
+  </div>
+</div>
+<div class="mobile-nav__fade"></div>
+ <section class="hero">
+  <div class="hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title">Listen to<br />the <span>amazing</span> music sound.</h1>
+      <div class="hero__desc">
+        <p>Experience music like never before</p>
+      </div>
+      <div class="hero__link">
+        <a href="#!" class="btn">Shopping Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="arrivals">
+  <div class="container">
+    <div class="arrivals__row">
+      <div class="arrivals__title">
+        <h2 class="headline-4">New Arrivals</h2>
+      </div>
+      <div class="arrivals__dots">
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container-right">
+    <div class="arrivals__slider"><div class="swiper">
+  <div class="swiper-wrapper"><div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/01.jpg"
+        srcset="./img/arrivals/01@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Skullcandy&#160;&#8212; Crusher anc 2 wireless headphones</h3>
+      <div class="card__price">$299.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/02.jpg"
+        srcset="./img/arrivals/02@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Beats Studio Pro</h3>
+      <div class="card__price">$349.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/03.jpg"
+        srcset="./img/arrivals/03@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</h3>
+      <div class="card__price">$149.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/04.jpg"
+        srcset="./img/arrivals/04@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Skullcandy&#160;&#8212; Rail True Wireless Earbuds</h3>
+      <div class="card__price">$79.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/05.jpg"
+        srcset="./img/arrivals/05@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Beats Studio Pro</h3>
+      <div class="card__price">$224.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/01.jpg"
+        srcset="./img/arrivals/01@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Skullcandy&#160;&#8212; Crusher anc 2 wireless headphones</h3>
+      <div class="card__price">$299.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/02.jpg"
+        srcset="./img/arrivals/02@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Beats Studio Pro</h3>
+      <div class="card__price">$349.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/03.jpg"
+        srcset="./img/arrivals/03@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</h3>
+      <div class="card__price">$149.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/04.jpg"
+        srcset="./img/arrivals/04@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Skullcandy&#160;&#8212; Rail True Wireless Earbuds</h3>
+      <div class="card__price">$79.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+<div class="swiper-slide">
+  <article class="card">
+    <div class="card__picture">
+      <img
+        src="./img/arrivals/05.jpg"
+        srcset="./img/arrivals/05@2x.jpg 2x"
+        alt="Headphones"
+      />
+      <div class="card__new">new</div>
+      <div class="card__fav">
+        <button class="btn__fav">
+          <img src="./img/icons/fav.svg" alt="Fav" />
+        </button>
+      </div>
+      <div class="card__btn">
+        <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+      </div>
+    </div>
+    <div class="card__desc">
+      <div class="card__rating">
+
+        <img src="./img/icons/star.svg" alt="Star" />
+
+      </div>
+      <h3 class="card__title">Beats Studio Pro</h3>
+      <div class="card__price">$224.99</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+  </article>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</section>
+ <div class="collection">
+  <div class="container">
+    <div class="collectiono__title">
+      <h2 class="headline-4">Shop Collection</h2>
+    </div>
+    <div class="collection__grid">
+      <div class="plate plate--tall plate--01">
+        <div class="plate__content">
+          <h3 class="plate__title">Headband</h3>
+          <a href="#!" class="plate__link">Collection</a>
+        </div>
+      </div>
+      <div class="plate plate--02">
+        <div class="plate__content">
+          <h3 class="plate__title">Earbuds</h3>
+          <a href="#!" class="plate__link">Collection</a>
+        </div>
+      </div>
+      <div class="plate plate--03">
+        <div class="plate__content">
+          <h3 class="plate__title">Accessories</h3>
+          <a href="#!" class="plate__link">Collection</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="bestseller">
+  <div class="container">
+    <div class="bestseller__title">
+      <h2 class="headline-4">Best Seller</h2>
+    </div>
+    <div class="bestseller__cards"><article class="card">
+  <div class="card__picture">
+    <img src="./img/arrivals/01.jpg" srcset="./img/arrivals/01@2x.jpg 2x" alt="Headphones" />
+    <div class="card__new">new</div>
+    <div class="card__fav">
+      <button class="btn__fav">
+        <img src="./img/icons/fav.svg" alt="Fav" />
+      </button>
+    </div>
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__rating">
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Skullcandy&#160;&#8212; Crusher anc 2 wireless headphones</h3>
+    <div class="card__price">$299.99</div>
+  </div>
+  <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img src="./img/arrivals/02.jpg" srcset="./img/arrivals/02@2x.jpg 2x" alt="Headphones" />
+    <div class="card__new">new</div>
+    <div class="card__fav">
+      <button class="btn__fav">
+        <img src="./img/icons/fav.svg" alt="Fav" />
+      </button>
+    </div>
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__rating">
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Beats Studio Pro</h3>
+    <div class="card__price">$349.99</div>
+  </div>
+  <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img src="./img/arrivals/03.jpg" srcset="./img/arrivals/03@2x.jpg 2x" alt="Headphones" />
+    <div class="card__new">new</div>
+    <div class="card__fav">
+      <button class="btn__fav">
+        <img src="./img/icons/fav.svg" alt="Fav" />
+      </button>
+    </div>
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__rating">
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</h3>
+    <div class="card__price">$149.99</div>
+  </div>
+  <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img src="./img/arrivals/04.jpg" srcset="./img/arrivals/04@2x.jpg 2x" alt="Headphones" />
+    <div class="card__new">new</div>
+    <div class="card__fav">
+      <button class="btn__fav">
+        <img src="./img/icons/fav.svg" alt="Fav" />
+      </button>
+    </div>
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__rating">
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Skullcandy&#160;&#8212; Rail True Wireless Earbuds</h3>
+    <div class="card__price">$79.99</div>
+  </div>
+  <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img src="./img/arrivals/05.jpg" srcset="./img/arrivals/05@2x.jpg 2x" alt="Headphones" />
+    <div class="card__new">new</div>
+    <div class="card__fav">
+      <button class="btn__fav">
+        <img src="./img/icons/fav.svg" alt="Fav" />
+      </button>
+    </div>
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__rating">
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Beats Studio Pro</h3>
+    <div class="card__price">$224.99</div>
+  </div>
+  <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img src="./img/arrivals/01.jpg" srcset="./img/arrivals/01@2x.jpg 2x" alt="Headphones" />
+    <div class="card__new">new</div>
+    <div class="card__fav">
+      <button class="btn__fav">
+        <img src="./img/icons/fav.svg" alt="Fav" />
+      </button>
+    </div>
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__rating">
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Skullcandy&#160;&#8212; Crusher anc 2 wireless headphones</h3>
+    <div class="card__price">$299.99</div>
+  </div>
+  <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img src="./img/arrivals/02.jpg" srcset="./img/arrivals/02@2x.jpg 2x" alt="Headphones" />
+    <div class="card__new">new</div>
+    <div class="card__fav">
+      <button class="btn__fav">
+        <img src="./img/icons/fav.svg" alt="Fav" />
+      </button>
+    </div>
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__rating">
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Beats Studio Pro</h3>
+    <div class="card__price">$349.99</div>
+  </div>
+  <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+  <div class="card__picture">
+    <img src="./img/arrivals/03.jpg" srcset="./img/arrivals/03@2x.jpg 2x" alt="Headphones" />
+    <div class="card__new">new</div>
+    <div class="card__fav">
+      <button class="btn__fav">
+        <img src="./img/icons/fav.svg" alt="Fav" />
+      </button>
+    </div>
+    <div class="card__btn">
+      <button class="btn btn--small btn--wide">Add to&#160;cart</button>
+    </div>
+  </div>
+  <div class="card__desc">
+    <div class="card__rating">
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+      <img src="./img/icons/star.svg" alt="Star" />
+
+    </div>
+    <h3 class="card__title card__title--elipsis">Sony&#160;&#8212; WH-CH720N Wireless Noise Canceling</h3>
+    <div class="card__price">$149.99</div>
+  </div>
+  <a href="#!" class="card__link"></a>
+</article>
+</div>
+  </div>
+</div>
+ <section class="promotion">
+  <div class="container">
+    <div class="promotion__container">
+      <div class="promotion__content">
+        <div class="promotion__desc">
+          <p class="promotion__tagline">PROMOTION</p>
+          <h2 class="promotion__title">Hurry up! 40% OFF</h2>
+          <div class="promotion__text">
+            <p>Thousands of&#160;high tech are waiting for you</p>
+          </div>
+        </div>
+        <div class="promotion__timer">
+          <p class="promotion__expires">Offer expires in:</p>
+          <div class="timer">
+  <div class="timer__el">
+    <div class="timer__value" id="days"></div>
+    <div class="timer__desc">Days</div>
+  </div>
+  <div class="timer__el">
+    <div class="timer__value" id="hours"></div>
+    <div class="timer__desc">Hours</div>
+  </div>
+  <div class="timer__el">
+    <div class="timer__value" id="minutes"></div>
+    <div class="timer__desc">Minutes</div>
+  </div>
+  <div class="timer__el">
+    <div class="timer__value" id="seconds"></div>
+    <div class="timer__desc">Seconds</div>
+  </div>
+</div>
+
+        </div>
+        <div class="promotion__btn">
+          <a href="#!" class="btn btn--small">Shop now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="values">
+  <div class="container">
+    <div class="values__row"><div class="value">
+  <img src="./img/values/shipping.svg" alt="shipping" class="value__img" />
+  <h4 class="value__title">Free Shipping</h4>
+  <p class="value__desc">Order above $200</p>
+</div>
+<div class="value">
+  <img src="./img/values/finance.svg" alt="shipping" class="value__img" />
+  <h4 class="value__title">Money-back</h4>
+  <p class="value__desc">30 days guarantee</p>
+</div>
+<div class="value">
+  <img src="./img/values/lock.svg" alt="shipping" class="value__img" />
+  <h4 class="value__title">Secure Payments</h4>
+  <p class="value__desc">Secured by&#160;Stripe</p>
+</div>
+<div class="value">
+  <img src="./img/values/call.svg" alt="shipping" class="value__img" />
+  <h4 class="value__title">24/7 Support</h4>
+  <p class="value__desc">Phone and Email support</p>
+</div>
+</div>
+  </div>
+</section>
+ <section class="newsletter">
+  <div class="newsletter__content">
+    <h2 class="newsletter__content headline-4">Join Our Newsletter</h2>
+    <p class="newsletter__desc">Sign up&#160;for deals, new products and promotions</p>
+    <form action="" class="form-newsletter">
+      <img src="./img/icons/email.svg" alt="Email" />
+      <input placeholder="Email address" class="form-newsletter__input" />
+      <button class="form-newsletter__submit" type="submit">Signup</button>
+    </form>
+  </div>
+</section>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__row footer__row-top">
+    <div class="footer__title">
+      <div class="footer__logo">3legant<span></span>.</div>
+      <div class="footer__separator"></div>
+      <div class="footer__store">Headphone Store</div>
+    </div>
+    <ul class="footer__nav">
+      <li><a href="#!">Home</a></li>
+      <li><a href="#!">Shop</a></li>
+      <li><a href="#!">Product</a></li>
+      <li><a href="#!">Blog</a></li>
+      <li><a href="#!">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="footer__row footer__row--border">
+    <div class="footer__copyright">
+      <p>Copyright &#169; 2024 3legant. All rights reserved</p>
+      <p class="footer__copyright-links">
+        <a href="#!">Privacy Policy</a>
+        <a href="#!">Terms of&#160;Use</a>
+      </p>
+    </div>
+    <div class="footer__social">
+      <a href="#!"><img src="./img/socials/instagram.svg" alt="instagram" /></a>
+      <a href="#!"><img src="./img/socials/facebook.svg" alt="facebook" /></a>
+      <a href="#!"><img src="./img/socials/youtube.svg" alt="youtube" /></a>
+    </div>
+  </div>
+</footer>
+
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+[
+  {
+    "img": "./img/values/shipping.svg",
+    "title": "Free Shipping",
+    "desc": "Order above $200"
+  },
+
+  {
+    "img": "./img/values/finance.svg",
+    "title": "Money-back",
+    "desc": "30 days guarantee"
+  },
+
+  {
+    "img": "./img/values/lock.svg",
+    "title": "Secure Payments",
+    "desc": "Secured by Stripe"
+  },
+
+  {
+    "img": "./img/values/call.svg",
+    "title": "24/7 Support",
+    "desc": "Phone and Email support"
+  }
+]
